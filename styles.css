@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+
+body {
+    display: flex;
+    margin: 0;
+    flex-direction: column;
+}
+
+/* HEADER */
+
+.header-section {
+    display: flex;
+    background-color: #1f2937;
+    align-items: center;
+    justify-content: center;
+    padding: 12px 0;
+}
+
+.header-container {
+    display: flex;
+    flex: 1;
+    margin: 0 200px; 
+    align-items: center;
+    gap: 200px;
+}
+
+.header-logo {
+    font-size: 24px;
+    color: #f9faf8;
+    font-weight: 900;
+    font-family: "Roboto", Arial, Helvetica, sans-serif;
+
+}
+
+.header-list {
+    display: flex;
+    list-style-type: none;
+    gap: 16px;
+    padding-left: 0;
+    margin-left: auto;
+}
+
+.header-list li {
+    font-size: 18px;
+    color: #e5e7eb;
+    text-decoration-line: none;
+    font-family: "Roboto", Arial, Helvetica, sans-serif;
+}
+
+/* CONTENT SECTION 1 */
+
+.content-section-1 {
+    display: flex;
+    background-color: #1f2937;
+    justify-content: space-around;
+    padding: 48px;
+}
+
+.cs1-title {
+    flex: 0 1 auto;
+    font-size: 48px;
+    font-family: "Roboto", Arial, Helvetica, sans-serif;
+    font-weight: 900;
+    color: #f9faf8;
+}
+
+.cs1-desc {
+    flex: 0 1 auto;
+    font-size: 18px;
+    color: #e5e7eb;
+    font-family: "Roboto", Arial, Helvetica, sans-serif;
+    flex-wrap: wrap;
+}
+
+.cs1-img {
+    flex: 0 1 auto;
+    font-size: 18px;
+    color: #e5e7eb;
+    font-family: "Roboto", Arial, Helvetica, sans-serif;
+}
+
+.cs1-container {
+    display: flex;
+    flex-direction: column;
+
+}
+
+
+/* FOOTER */
+
+.footer {
+    display: flex;
+    background-color: #1f2937;
+    align-items: center;
+    justify-content: center;
+    padding: 12px 4px;
+    font-size: 18px;
+    color: #e5e7eb;
+    text-decoration-line: none;
+    font-family: "Roboto", Arial, Helvetica, sans-serif;
+}
