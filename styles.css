@@ -1,11 +1,17 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 
-
 body {
     display: flex;
     margin: 0;
     flex-direction: column;
 }
+
+/*
+body * {
+    border: 2.5px solid;
+    border-color: red;
+}
+*/
 
 /* HEADER */
 
@@ -19,10 +25,9 @@ body {
 
 .header-container {
     display: flex;
-    flex: 1;
+    flex: 1 0 1000px;
     margin: 0 200px; 
     align-items: center;
-    gap: 200px;
 }
 
 .header-logo {
@@ -50,15 +55,30 @@ body {
 
 /* CONTENT SECTION 1 */
 
-.content-section-1 {
+.content-1-section {
     display: flex;
     background-color: #1f2937;
-    justify-content: space-around;
-    padding: 48px;
+    align-items: center;
+    justify-content: center;
+    padding: 12px 0;
+}
+
+.content-1-container {
+    display: flex;
+    flex: 1 0 1000px;
+    margin: 0 200px; 
+    align-items: center;
+    gap: 50px
+}
+
+.content-1-text-container {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
 }
 
 .cs1-title {
-    flex: 0 1 auto;
+    flex: 0 0 auto;
     font-size: 48px;
     font-family: "Roboto", Arial, Helvetica, sans-serif;
     font-weight: 900;
@@ -71,21 +91,31 @@ body {
     color: #e5e7eb;
     font-family: "Roboto", Arial, Helvetica, sans-serif;
     flex-wrap: wrap;
+    margin-right: 100px;
 }
 
 .cs1-img {
-    flex: 0 1 auto;
     font-size: 18px;
     color: #e5e7eb;
     font-family: "Roboto", Arial, Helvetica, sans-serif;
+    width: 400px;
+    height: 400px;
 }
 
-.cs1-container {
-    display: flex;
-    flex-direction: column;
-
+#img-balls {
+    width: 400px;
+    height: 400px;
 }
 
+.button-1 {
+    background-color: #3882F6;
+    color: #f9faf8;
+    font-weight: 900;
+    font-family: "Roboto", Arial, Helvetica, sans-serif;
+    width: 200px;
+    height: 50px;
+    border-radius: 8px;
+}
 
 /* FOOTER */
 
